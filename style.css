@@ -1,0 +1,425 @@
+body {
+    background-color: #f9f9f9a3;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 54px 134.5px;
+}
+
+.q {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.w {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.e {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.e>li>a {
+    text-decoration: none;
+    font-family: Rubik;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.33px;
+    color: #363853;
+    transition: all 0.5s; 
+}
+
+
+.e > .r > a {
+    color:#FF7A50;
+}
+
+.e > li > a:hover {
+    color: #FF7A50;
+    transition: all 0.5s;
+}
+
+.t {
+    position: relative;
+}
+
+.y {
+    width: 14px;
+    height: 14px;
+    background-color: #FF7A50;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    top: -5px;
+    right: -5px;
+}
+
+
+.y>p {
+    font-family: Rubik;
+    font-size: 10px;
+    font-weight: 400;
+    color: white;   
+}
+
+.u {
+    width: 120px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    background-color: #FF7A50;
+    font-family: Rubik;
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    box-shadow: 0px 22px 40px 0px #FF683830;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.u:hover {
+    background-color: gray;
+    transition: all 0.5s;
+}
+
+.i {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.o{
+    margin-top: 220.23px;
+}
+
+.p {
+    color: #FF7A50;
+}
+
+.o > h1 {
+    font-family: Rubik;
+    font-size: 66px;
+    font-weight: 500;
+    line-height: 78.21px;
+    color: #363853;
+}
+
+.o>p {
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 25px;
+    margin-bottom: 45px;
+    color: #363853;
+}
+
+.s {
+    margin-top: 104.77px;
+}
+
+.a{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.a > button {
+    width: 163px;
+    height: 50.41px;
+    border-radius: 5px;
+    border: none;
+    background-color: #FF7A50;
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.7px;
+    color: white;   
+    box-shadow: 0px 22px 40px 0px #FF683830;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.a > button:hover {
+    background-color: gray;
+    transition: all 0.5s;
+}
+
+.a > a {
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.7px;
+    color: #363853;   
+}
+
+.d {
+    margin: 0 136px 44px 92px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.f {
+    width: 449px;
+    height: 497px;
+}
+
+.f > h1 {
+    width: 384px;
+    font-family: Rubik;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 50px;
+    color: #363853;
+    margin-top: 185.46px;
+}
+
+.f > p {
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #363853;
+    margin: 95px 0 141px 0;
+}
+
+.f > button {
+    width: 176px;
+    height: 58px;
+    border-radius: 30px 30px 1px 30px;
+    border: none;
+    background-color: #FF7A50;
+    box-shadow: 0px 22px 40px 0px #FF683830;
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.7px;
+    color: white;
+    cursor: pointer; 
+    transition: all 0.5s;
+}
+
+.f > button:hover {
+    background-color: gray;
+    transition: all 0.5s;
+}
+
+main > section > h2 {
+    text-align: center;
+    font-family: Rubik;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 30px;
+    margin-top: 44px;   
+}
+
+.h {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px 135.5px 155px 135.5px;
+    gap: 70px;
+}
+
+.k {
+    padding: 22px 39px 22px 20px;
+}
+
+.h > .j {
+    background-color: white;
+    height: 417px;
+    border-radius: 0 0 53px 5px;
+}
+
+
+
+.j > .k > p {
+    font-family: Rubik;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #363853;
+}
+
+.l {
+    display: flex;
+    align-items: center;
+    margin-top: 14px;
+}
+
+.l > img {
+    margin-right: 8px;
+}
+
+.l > p {
+    font-family: Rubik;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: left;
+    color: #353758e7;
+    margin-right: 30px;    
+}
+
+.l > button {
+    width: 79px;
+    height: 33px;
+    background-color: #f86d43e8;
+    box-shadow: 0px 5px 12px 0px #FF683830;
+    border: none;
+    border-radius: 20px 20px 0 20px;
+    color: white;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.l > button:hover {
+    background-color: gray;
+    transition: all 0.5s;
+}
+
+
+.z {
+    display: flex;
+    justify-content: space-between;
+}
+
+.x {
+    width: 538px;
+    height: 244px;
+    display: flex;
+    flex-direction: column;
+    margin: 145px 20px 263px 167px;
+    row-gap: 30px;
+}
+
+.x > h2 {
+    font-family: Rubik;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 50px;
+    color: #363853;
+}
+
+.x > p {
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #363853;    
+}
+
+.Apps {
+    display: flex;
+    gap: 35px;
+    cursor: pointer;
+}
+
+.c {
+    margin:0 118px 0 0;
+}
+
+
+.v {
+    margin: 0 135px 103px 170px;
+    width: 1170px;
+    height: 312px;
+    background-color: #FF7A50;
+    background-image: url(assect/img/Mask\ Group.png);
+    border-radius: 15px;
+}
+
+.n > h2  {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 59px 0 0 0;
+    font-family: Rubik;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 47.4px;
+    color: white;    
+}
+
+.b > input {
+    width: 838.5px;
+    height: 78px;
+    box-shadow: 10px 24px 54px 0px #00000012;
+    border: none;
+    border-radius: 70px;
+    padding: 24.55px 0 24.55px 43.25px;
+    outline: none;
+}
+
+.b > input::placeholder {
+    font-family: Rubik;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    color:#363853;    
+}
+
+.b {
+    margin: 72.45px 165.75px 56.55px;
+    display: flex;
+    position: relative;
+}
+
+.b > button {
+    width: 191.1px;
+    height: 58.5px;
+    border-radius: 70px;
+    border: none;
+    background-color: #FF7A50;
+    color: white;
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: center;
+    cursor: pointer;    
+    position: absolute;
+    right: 12.5px;
+    top: 9.55px;
+}
+
+
+.footer_nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 150px 68px;
+}
+
+.navi > ul {
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    cursor: pointer;
+    font-family: Rubik;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    color: #646464;    
+}
+
+.Ofera {
+    color:#646464;
+}
+
+
